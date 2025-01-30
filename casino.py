@@ -15,7 +15,7 @@ def place_bet(amount, bet_type, bet_value):
         return -amount
 
 def main():
-    balance = 10000
+    balance = 20000
     print("Welcome to the Roulette Game!")
     while balance > 0:
         print(f"Your current balance is: ${balance}")
