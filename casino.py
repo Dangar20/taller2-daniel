@@ -16,7 +16,7 @@ def place_bet(amount, bet_type, bet_value):
 
 def main():
     balance = 20000
-    print("Welcome to the Mega Roulette Game!")
+    print("Welcome to the Ultra Mega Roulette Game!")
     while balance > 0:
         print(f"Your current balance is: ${balance}")
         amount = int(input("Enter your bet amount: "))
