@@ -14,8 +14,9 @@ def place_bet(amount, bet_type, bet_value):
     else:
         return -amount
 
+# Modifique el balance de 20000 a 40000
 def main():
-    balance = 20000
+    balance = 40000
     print("Welcome to the Ultra Mega Roulette Game!")
     while balance > 0:
         print(f"Your current balance is: ${balance}")
